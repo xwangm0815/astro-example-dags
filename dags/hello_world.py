@@ -29,7 +29,7 @@ with DAG(
     default_args=default_args,
     description='A simple hello world DAG',
     schedule_interval=None,
-    start_date=datetime(2024, 09, 09),
+    start_date=datetime(2024, 9, 9),
     catchup=False,
 ) as dag:
 

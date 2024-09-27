@@ -28,8 +28,8 @@ with DAG(
     dag_id='hello_world',
     default_args=default_args,
     description='A simple hello world DAG',
-    schedule_interval='@daily',
-    start_date=datetime(2023, 1, 1),
+    schedule_interval=None,
+    start_date=datetime(2024, 09, 09),
     catchup=False,
 ) as dag:
 
